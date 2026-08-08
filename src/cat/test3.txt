@@ -1,0 +1,13 @@
+will print the contents of file1 to the standard output.
+
+     The command:
+
+           cat file1 file2 > file3
+
+     will sequentially print the contents of file1 and file2 to the file file3, truncating file3 if it already exists.  See the manual page for your shell (e.g.,
+     sh(1)) for more information on redirection.
+
+     The command:
+
+
+           cat file1 - file2 - file3
